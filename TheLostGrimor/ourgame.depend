@@ -1,0 +1,515 @@
+# depslib dependency file v1.0
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/boundingbox.c
+	"boundingbox.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/boundingbox.h
+	<SDL/SDL.h>
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/clochard.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/clochard.h
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/credits.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"credits.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/credits.h
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/exit.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"game.h"
+	"exit.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/game.h
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/exit.h
+	"game.h"
+
+1590745831 source:/home/ghassen/Desktop/ourgame/ourgame/game.c
+	<SDL/SDL.h>
+	"game.h"
+
+1590106320 source:/home/ghassen/Desktop/ourgame/ourgame/main.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+	"play.h"
+	"play2.h"
+	"play3.h"
+	"settings2.h"
+	"credits.h"
+	"menu.h"
+	"menu2.h"
+	"menu3.h"
+	"quiz.h"
+	"exit.h"
+	"navg.h"
+	"savemenu.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/play.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"play2.h"
+	"play3.h"
+	"quiz.h"
+	"objet.h"
+	"savemenu.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/player.h
+	"vie.h"
+	"time.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/vie.h
+	<SDL/SDL.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/time.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/play2.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"quiz.h"
+	"objet.h"
+	"savemenu.h"
+	"save.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/quiz.h
+	<SDL/SDL_ttf.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/objet.h
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/savemenu.h
+	"game.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/save.h
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/play3.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"savemenu.h"
+	"quiz.h"
+	"objet.h"
+	"game.h"
+	"exit.h"
+	"save.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/settings2.h
+	"navg.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/navg.h
+
+1590159822 /home/ghassen/Desktop/ourgame/ourgame/menu.h
+	"menu2.h"
+	"exit.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/menu2.h
+	"menu3.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/ourgame/menu3.h
+
+1590160188 source:/home/ghassen/Desktop/ourgame/ourgame/menu.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"settings2.h"
+	"credits.h"
+	"play.h"
+	"game.h"
+	"menu.h"
+	"menu2.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/menu2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"menu2.h"
+	"menu3.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/menu3.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"menu3.h"
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/navg.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"navg.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/objet.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"objet.h"
+
+1590745933 source:/home/ghassen/Desktop/ourgame/ourgame/play.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play.h"
+	"objet.h"
+	"savemenu.h"
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/play2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play2.h"
+	"play3.h"
+	"objet.h"
+	"savemenu.h"
+	<SDL/SDL_mixer.h>
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/play3.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play2.h"
+	"play3.h"
+	"objet.h"
+	"quiz.h"
+	<SDL/SDL_mixer.h>
+	"game.h"
+	"exit.h"
+	"savemenu.h"
+
+1590746068 source:/home/ghassen/Desktop/ourgame/ourgame/player.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"player.h"
+	"time.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/quiz.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<time.h>
+	"quiz.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/save.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/savemenu.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"game.h"
+	"play.h"
+	"savemenu.h"
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/settings2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"settings2.h"
+	"navg.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/time.c
+	"time.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/ourgame/vie.c
+	"vie.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/boundingbox.c
+	"boundingbox.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/boundingbox.h
+	<SDL/SDL.h>
+
+1557223604 source:/home/ghassen/Desktop/ourgame/clochard.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/clochard.h
+
+1557223604 source:/home/ghassen/Desktop/ourgame/credits.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"credits.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/credits.h
+
+1557223604 source:/home/ghassen/Desktop/ourgame/exit.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"game.h"
+	"exit.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/game.h
+
+1557223604 /home/ghassen/Desktop/ourgame/exit.h
+	"game.h"
+
+1590747960 source:/home/ghassen/Desktop/ourgame/game.c
+	<SDL/SDL.h>
+	"game.h"
+
+1591309450 source:/home/ghassen/Desktop/ourgame/main.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+	"play.h"
+	"play2.h"
+	"play3.h"
+	"settings2.h"
+	"credits.h"
+	"menu.h"
+	"menu2.h"
+	"menu3.h"
+	"quiz.h"
+	"exit.h"
+	"navg.h"
+	"savemenu.h"
+	"enigme.h"
+	<time.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/play.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"play2.h"
+	"play3.h"
+	"quiz.h"
+	"objet.h"
+	"savemenu.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/player.h
+	"vie.h"
+	"time.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/vie.h
+	<SDL/SDL.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/time.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/play2.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"quiz.h"
+	"objet.h"
+	"savemenu.h"
+	"save.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/quiz.h
+	<SDL/SDL_ttf.h>
+
+1557223604 /home/ghassen/Desktop/ourgame/objet.h
+
+1557223604 /home/ghassen/Desktop/ourgame/savemenu.h
+	"game.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/save.h
+
+1557223604 /home/ghassen/Desktop/ourgame/play3.h
+	"player.h"
+	"clochard.h"
+	"boundingbox.h"
+	"savemenu.h"
+	"quiz.h"
+	"objet.h"
+	"game.h"
+	"exit.h"
+	"save.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/settings2.h
+	"navg.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/navg.h
+
+1590159822 /home/ghassen/Desktop/ourgame/menu.h
+	"menu2.h"
+	"exit.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/menu2.h
+	"menu3.h"
+
+1557223604 /home/ghassen/Desktop/ourgame/menu3.h
+
+1590160188 source:/home/ghassen/Desktop/ourgame/menu.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"settings2.h"
+	"credits.h"
+	"play.h"
+	"game.h"
+	"menu.h"
+	"menu2.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/menu2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"menu2.h"
+	"menu3.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/menu3.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"menu3.h"
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/navg.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"navg.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/objet.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"objet.h"
+
+1590762092 source:/home/ghassen/Desktop/ourgame/play.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play.h"
+	"objet.h"
+	"savemenu.h"
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/play2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play2.h"
+	"play3.h"
+	"objet.h"
+	"savemenu.h"
+	<SDL/SDL_mixer.h>
+
+1557223604 source:/home/ghassen/Desktop/ourgame/play3.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"clochard.h"
+	"vie.h"
+	"play2.h"
+	"play3.h"
+	"objet.h"
+	"quiz.h"
+	<SDL/SDL_mixer.h>
+	"game.h"
+	"exit.h"
+	"savemenu.h"
+
+1590754367 source:/home/ghassen/Desktop/ourgame/player.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"player.h"
+	"time.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/quiz.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<time.h>
+	"quiz.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/save.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/savemenu.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"game.h"
+	"play.h"
+	"savemenu.h"
+	"save.h"
+
+1557223604 source:/home/ghassen/Desktop/ourgame/settings2.c
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<string.h>
+	"play.h"
+	"settings2.h"
+	"navg.h"
+
+1590754780 source:/home/ghassen/Desktop/ourgame/time.c
+	"time.h"
+
+1590758043 source:/home/ghassen/Desktop/ourgame/vie.c
+	"vie.h"
+
+1591309627 source:/home/ghassen/Desktop/ourgame/enigme.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"enigme.h"
+	<time.h>
+
+1591267624 /home/ghassen/Desktop/ourgame/enigme.h
+
