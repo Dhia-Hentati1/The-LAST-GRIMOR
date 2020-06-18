@@ -1,0 +1,276 @@
+\hypertarget{multi_8h}{}\section{multi.\+h File Reference}
+\label{multi_8h}\index{multi.\+h@{multi.\+h}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+Include dependency graph for multi.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structEcran}{Ecran}
+\item 
+struct \hyperlink{structPerso}{Perso}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structEcran}{Ecran} \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran}
+\item 
+typedef struct \hyperlink{structPerso}{Perso} \hyperlink{multi_8h_aa4353812c01c951802b40d4692216f40}{Perso}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{multi_8h_a14e2519f5e640444c1a41ab0f4232d64}{partage\+\_\+ecran} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e)
+\begin{DoxyCompactList}\small\item\em partage\+\_\+ecran initialisation de partage d\textquotesingle{}ecran \end{DoxyCompactList}\item 
+void \hyperlink{multi_8h_a9719d5b716b10b1d2317e38c5d16dedb}{affichage} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Affichage de topclip et botclip. \end{DoxyCompactList}\item 
+void \hyperlink{multi_8h_a381ec3b7a22392fa3fdaf83a99eb512f}{initialiserperso} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structPerso}{Perso} $\ast$p, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e)
+\begin{DoxyCompactList}\small\item\em initilisation des perso \end{DoxyCompactList}\item 
+void \hyperlink{multi_8h_aac2694166a06716b804b33fa05d5230e}{affichageperso} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structPerso}{Perso} $\ast$p, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e)
+\begin{DoxyCompactList}\small\item\em affichage des personnages 1 et 2 \end{DoxyCompactList}\item 
+void \hyperlink{multi_8h_ad79bb91474137684e045244e588f8737}{deplacement} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structPerso}{Perso} $\ast$p, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e, S\+D\+L\+\_\+\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em deplacement des personnages 1 et 2 \end{DoxyCompactList}\item 
+void \hyperlink{multi_8h_a368d35d7dae3a18a794468f5b035a3ff}{scrolling} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structPerso}{Perso} $\ast$p, \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$e)
+\begin{DoxyCompactList}\small\item\em scrolling \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{multi_8h_a1917f17fc32d72b20e0053bd19608bae}\label{multi_8h_a1917f17fc32d72b20e0053bd19608bae}} 
+\index{multi.\+h@{multi.\+h}!ecran@{ecran}}
+\index{ecran@{ecran}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{ecran}{ecran}}
+{\footnotesize\ttfamily typedef struct \hyperlink{structEcran}{Ecran}  \hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran}}
+
+@ struct \hyperlink{structEcran}{Ecran} @ breif struct pour ecran \mbox{\Hypertarget{multi_8h_aa4353812c01c951802b40d4692216f40}\label{multi_8h_aa4353812c01c951802b40d4692216f40}} 
+\index{multi.\+h@{multi.\+h}!Perso@{Perso}}
+\index{Perso@{Perso}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{Perso}{Perso}}
+{\footnotesize\ttfamily typedef struct \hyperlink{structPerso}{Perso}  \hyperlink{structPerso}{Perso}}
+
+@ struct \hyperlink{structPerso}{Perso} @ struct pour coordonnees des perso 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{multi_8h_a9719d5b716b10b1d2317e38c5d16dedb}\label{multi_8h_a9719d5b716b10b1d2317e38c5d16dedb}} 
+\index{multi.\+h@{multi.\+h}!affichage@{affichage}}
+\index{affichage@{affichage}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{affichage()}{affichage()}}
+{\footnotesize\ttfamily void affichage (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+Affichage de topclip et botclip. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file multi.\+c.
+
+
+\begin{DoxyCode}
+43 \{
+44 
+45 SDL\_BlitSurface(e->bg,&e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio},screen,&e->\hyperlink{structEcran_ab08e2f16c938be034346c7267fad5cf1}{botclippos});
+46 SDL\_BlitSurface(e->bg,&e->topclip,screen,&e->\hyperlink{structEcran_aea06b9168f992fa7e6a1bbb2dfcd11e3}{topclippos});
+47 
+48 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{multi_8h_aac2694166a06716b804b33fa05d5230e}\label{multi_8h_aac2694166a06716b804b33fa05d5230e}} 
+\index{multi.\+h@{multi.\+h}!affichageperso@{affichageperso}}
+\index{affichageperso@{affichageperso}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{affichageperso()}{affichageperso()}}
+{\footnotesize\ttfamily void affichageperso (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structPerso}{Perso} $\ast$}]{p,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+affichage des personnages 1 et 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+{\em p} & pointeur struct \hyperlink{structPerso}{Perso} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 72 of file multi.\+c.
+
+
+\begin{DoxyCode}
+73 \{
+74 SDL\_BlitSurface(p->pe1,NULL,screen,&p->pos1);
+75 SDL\_BlitSurface(p->pe2,NULL,screen,&p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2});
+76 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{multi_8h_ad79bb91474137684e045244e588f8737}\label{multi_8h_ad79bb91474137684e045244e588f8737}} 
+\index{multi.\+h@{multi.\+h}!deplacement@{deplacement}}
+\index{deplacement@{deplacement}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{deplacement()}{deplacement()}}
+{\footnotesize\ttfamily void deplacement (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structPerso}{Perso} $\ast$}]{p,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e,  }\item[{S\+D\+L\+\_\+\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+deplacement des personnages 1 et 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+{\em p} & pointeur struct \hyperlink{structPerso}{Perso} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file multi.\+c.
+
+
+\begin{DoxyCode}
+85 \{
+86 
+87 
+88             \textcolor{keywordflow}{if}(event->type == SDL\_KEYDOWN) \{
+89             \textcolor{keywordflow}{if}(event->key.keysym.sym == SDLK\_RIGHT) \{
+90                     p->pos1.x += 5;
+91                 \}
+92                 \textcolor{keywordflow}{if}(event->key.keysym.sym == SDLK\_LEFT) \{
+93                     p->pos1.y -= 5;
+94                 \}
+95                 \textcolor{keywordflow}{if}(event->key.keysym.sym == SDLK\_d) \{
+96                     p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2}.x += 5;
+97                 \}
+98                 \textcolor{keywordflow}{if}(event->key.keysym.sym == SDLK\_s) \{
+99                         p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2}.y -= 5;
+100                 \}
+101             \}
+102         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{multi_8h_a381ec3b7a22392fa3fdaf83a99eb512f}\label{multi_8h_a381ec3b7a22392fa3fdaf83a99eb512f}} 
+\index{multi.\+h@{multi.\+h}!initialiserperso@{initialiserperso}}
+\index{initialiserperso@{initialiserperso}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{initialiserperso()}{initialiserperso()}}
+{\footnotesize\ttfamily void initialiserperso (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structPerso}{Perso} $\ast$}]{p,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+initilisation des perso 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+{\em p} & pointeur struct \hyperlink{structPerso}{Perso} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 56 of file multi.\+c.
+
+
+\begin{DoxyCode}
+57 \{
+58     p->pe1 = IMG\_Load(\textcolor{stringliteral}{"silva.png"});
+59     p->pe2 = IMG\_Load(\textcolor{stringliteral}{"silva.png"});
+60     p->pos1.x = 0 ;
+61     p->pos1.y = 300-150 ;
+62     p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2}.x = 0 ;
+63     p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2}.y = 300+120 ;
+64     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{multi_8h_a14e2519f5e640444c1a41ab0f4232d64}\label{multi_8h_a14e2519f5e640444c1a41ab0f4232d64}} 
+\index{multi.\+h@{multi.\+h}!partage\+\_\+ecran@{partage\+\_\+ecran}}
+\index{partage\+\_\+ecran@{partage\+\_\+ecran}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{partage\+\_\+ecran()}{partage\_ecran()}}
+{\footnotesize\ttfamily void partage\+\_\+ecran (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+partage\+\_\+ecran initialisation de partage d\textquotesingle{}ecran 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file multi.\+c.
+
+
+\begin{DoxyCode}
+19 \{
+20 
+21 e->bg = IMG\_Load(\textcolor{stringliteral}{"mapofficel.png"});
+22 e->topclip.x = 0 ;
+23 e->topclip.y = 200-60 ; \textcolor{comment}{//200}
+24 e->topclip.w = 7500 ;
+25 e->topclip.h = 300 ;
+26 e->\hyperlink{structEcran_aea06b9168f992fa7e6a1bbb2dfcd11e3}{topclippos}.x = 0 ;
+27 e->\hyperlink{structEcran_aea06b9168f992fa7e6a1bbb2dfcd11e3}{topclippos}.y = 0 ;
+28 \textcolor{comment}{//------------------------}
+29 e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x=0;
+30 e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.y=200; \textcolor{comment}{//200}
+31 e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.w=7500;
+32 e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.h=300;
+33 e->\hyperlink{structEcran_ab08e2f16c938be034346c7267fad5cf1}{botclippos}.x = 0 ;
+34 e->\hyperlink{structEcran_ab08e2f16c938be034346c7267fad5cf1}{botclippos}.y = 300  ;
+35 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{multi_8h_a368d35d7dae3a18a794468f5b035a3ff}\label{multi_8h_a368d35d7dae3a18a794468f5b035a3ff}} 
+\index{multi.\+h@{multi.\+h}!scrolling@{scrolling}}
+\index{scrolling@{scrolling}!multi.\+h@{multi.\+h}}
+\subsubsection{\texorpdfstring{scrolling()}{scrolling()}}
+{\footnotesize\ttfamily void scrolling (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structPerso}{Perso} $\ast$}]{p,  }\item[{\hyperlink{multi_8h_a1917f17fc32d72b20e0053bd19608bae}{ecran} $\ast$}]{e }\end{DoxyParamCaption})}
+
+
+
+scrolling 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & pointeur \\
+\hline
+{\em e} & pointeur struct ecran \\
+\hline
+{\em p} & pointeur struct \hyperlink{structPerso}{Perso} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file multi.\+c.
+
+
+\begin{DoxyCode}
+111 \{
+112 
+113 
+114         e->topclip.x = p->pos1.x - 384;
+115         \textcolor{keywordflow}{if}(e->topclip.x < 0)
+116             e->topclip.x = 0;
+117         \textcolor{keywordflow}{if}(e->topclip.x > 7100)
+118             e->topclip.x = 7100;
+119 
+120         e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x = p->\hyperlink{structPerso_a64f931702a8b0004a6dfc38383d0343f}{pos2}.x - 384;
+121         \textcolor{keywordflow}{if}(e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x  < 0)
+122             e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x  = 0;
+123         \textcolor{keywordflow}{if}(e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x  > 7100)
+124             e->\hyperlink{structEcran_ad2245fc9d88143acda177a76ad613d9f}{botclio}.x  = 7100;
+125 
+126 \}
+\end{DoxyCode}

@@ -1,0 +1,85 @@
+\hypertarget{source_8c}{}\section{source.\+c File Reference}
+\label{source_8c}\index{source.\+c@{source.\+c}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}header.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for source.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structimage}{image} \hyperlink{source_8c_afda49bda4c4db7c481215481344380e7}{initialisation} (char nameofpicure\mbox{[}70\mbox{]}, int x, int y)
+\begin{DoxyCompactList}\small\item\em initialisation initialisation de partage d\textquotesingle{}ecran \end{DoxyCompactList}\item 
+void \hyperlink{source_8c_acbf286270c89d6de0737fdccc5495007}{affichage} (S\+D\+L\+\_\+\+Surface $\ast$ecran, \hyperlink{structimage}{image} \hyperlink{structimage}{image})
+\begin{DoxyCompactList}\small\item\em Affichage des image. \end{DoxyCompactList}\item 
+int \hyperlink{source_8c_a1799be0610f084b7577718ae96f9877d}{random\+\_\+nbr} (int nb)
+\begin{DoxyCompactList}\small\item\em Donner un entier aleatoirement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ghassen 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{source_8c_acbf286270c89d6de0737fdccc5495007}\label{source_8c_acbf286270c89d6de0737fdccc5495007}} 
+\index{source.\+c@{source.\+c}!affichage@{affichage}}
+\index{affichage@{affichage}!source.\+c@{source.\+c}}
+\subsubsection{\texorpdfstring{affichage()}{affichage()}}
+{\footnotesize\ttfamily void affichage (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran,  }\item[{\hyperlink{structimage}{image}}]{image }\end{DoxyParamCaption})}
+
+
+
+Affichage des image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ecran} & pointeur \\
+\hline
+{\em image} & sturct \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{source_8c_afda49bda4c4db7c481215481344380e7}\label{source_8c_afda49bda4c4db7c481215481344380e7}} 
+\index{source.\+c@{source.\+c}!initialisation@{initialisation}}
+\index{initialisation@{initialisation}!source.\+c@{source.\+c}}
+\subsubsection{\texorpdfstring{initialisation()}{initialisation()}}
+{\footnotesize\ttfamily \hyperlink{structimage}{image} initialisation (\begin{DoxyParamCaption}\item[{char}]{nameofpicure\mbox{[}70\mbox{]},  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+initialisation initialisation de partage d\textquotesingle{}ecran 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nameofpicture} & le nom de l\textquotesingle{}image \\
+\hline
+{\em x} & entier \\
+\hline
+{\em y} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{source_8c_a1799be0610f084b7577718ae96f9877d}\label{source_8c_a1799be0610f084b7577718ae96f9877d}} 
+\index{source.\+c@{source.\+c}!random\+\_\+nbr@{random\+\_\+nbr}}
+\index{random\+\_\+nbr@{random\+\_\+nbr}!source.\+c@{source.\+c}}
+\subsubsection{\texorpdfstring{random\+\_\+nbr()}{random\_nbr()}}
+{\footnotesize\ttfamily int random\+\_\+nbr (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Donner un entier aleatoirement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nb} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nb 
+\end{DoxyReturn}

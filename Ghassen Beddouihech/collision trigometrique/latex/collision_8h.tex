@@ -1,0 +1,169 @@
+\hypertarget{collision_8h}{}\section{collision.\+h File Reference}
+\label{collision_8h}\index{collision.\+h@{collision.\+h}}
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+Include dependency graph for collision.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structCircle}{Circle}
+\item 
+struct \hyperlink{structObjet}{Objet}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{collision_8h_a175291d6327d78436a83d7681792e05f}{init} (\hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em initialisation objet 1 \& 2 \end{DoxyCompactList}\item 
+void \hyperlink{collision_8h_a977769899c65d9b22b4a5cbde4c3c74e}{setup} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em affichage objet 1 \& 2 \end{DoxyCompactList}\item 
+void \hyperlink{collision_8h_aadda18ab7580865447873b458c422eff}{calculer\+\_\+centre\+\_\+rayon} (\hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em calcule rayon \end{DoxyCompactList}\item 
+float \hyperlink{collision_8h_a6d26d6ae199b28eda68207e97d750518}{calculer\+\_\+distance} (\hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em calcule distance \end{DoxyCompactList}\item 
+int \hyperlink{collision_8h_a5ff7548e046a7ffb8c7924139d8d401f}{verif\+\_\+collision} (\hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2, float D1)
+\begin{DoxyCompactList}\small\item\em verification collision \end{DoxyCompactList}\item 
+void \hyperlink{collision_8h_a326070ea1c05e146d232d831d8b31add}{deplacement\+\_\+objet} (\hyperlink{structObjet}{Objet} $\ast$objet, int $\ast$running)
+\begin{DoxyCompactList}\small\item\em deplacement \end{DoxyCompactList}\item 
+void \hyperlink{collision_8h_a5e3de65a4cd70b04f79c69e189b4ea7e}{update} (S\+D\+L\+\_\+\+Surface $\ast$screen, \hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em mise a jour affichage \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{collision_8h_a731c382f250330c916300596e28e163f}\label{collision_8h_a731c382f250330c916300596e28e163f}} 
+void \hyperlink{collision_8h_a731c382f250330c916300596e28e163f}{liberate\+\_\+memory} (\hyperlink{structObjet}{Objet} $\ast$objet1, \hyperlink{structObjet}{Objet} $\ast$objet2)
+\begin{DoxyCompactList}\small\item\em liberer memoire \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ghassen beddouihech 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{collision_8h_aadda18ab7580865447873b458c422eff}\label{collision_8h_aadda18ab7580865447873b458c422eff}} 
+\index{collision.\+h@{collision.\+h}!calculer\+\_\+centre\+\_\+rayon@{calculer\+\_\+centre\+\_\+rayon}}
+\index{calculer\+\_\+centre\+\_\+rayon@{calculer\+\_\+centre\+\_\+rayon}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{calculer\+\_\+centre\+\_\+rayon()}{calculer\_centre\_rayon()}}
+{\footnotesize\ttfamily void calculer\+\_\+centre\+\_\+rayon (\begin{DoxyParamCaption}\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2 }\end{DoxyParamCaption})}
+
+
+
+calcule rayon 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a6d26d6ae199b28eda68207e97d750518}\label{collision_8h_a6d26d6ae199b28eda68207e97d750518}} 
+\index{collision.\+h@{collision.\+h}!calculer\+\_\+distance@{calculer\+\_\+distance}}
+\index{calculer\+\_\+distance@{calculer\+\_\+distance}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{calculer\+\_\+distance()}{calculer\_distance()}}
+{\footnotesize\ttfamily float calculer\+\_\+distance (\begin{DoxyParamCaption}\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2 }\end{DoxyParamCaption})}
+
+
+
+calcule distance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a326070ea1c05e146d232d831d8b31add}\label{collision_8h_a326070ea1c05e146d232d831d8b31add}} 
+\index{collision.\+h@{collision.\+h}!deplacement\+\_\+objet@{deplacement\+\_\+objet}}
+\index{deplacement\+\_\+objet@{deplacement\+\_\+objet}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{deplacement\+\_\+objet()}{deplacement\_objet()}}
+{\footnotesize\ttfamily void deplacement\+\_\+objet (\begin{DoxyParamCaption}\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet,  }\item[{int $\ast$}]{running }\end{DoxyParamCaption})}
+
+
+
+deplacement 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet} & pointeur \\
+\hline
+{\em running} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a175291d6327d78436a83d7681792e05f}\label{collision_8h_a175291d6327d78436a83d7681792e05f}} 
+\index{collision.\+h@{collision.\+h}!init@{init}}
+\index{init@{init}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void init (\begin{DoxyParamCaption}\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2 }\end{DoxyParamCaption})}
+
+
+
+initialisation objet 1 \& 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a977769899c65d9b22b4a5cbde4c3c74e}\label{collision_8h_a977769899c65d9b22b4a5cbde4c3c74e}} 
+\index{collision.\+h@{collision.\+h}!setup@{setup}}
+\index{setup@{setup}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void setup (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2 }\end{DoxyParamCaption})}
+
+
+
+affichage objet 1 \& 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em screen} & \\
+\hline
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a5e3de65a4cd70b04f79c69e189b4ea7e}\label{collision_8h_a5e3de65a4cd70b04f79c69e189b4ea7e}} 
+\index{collision.\+h@{collision.\+h}!update@{update}}
+\index{update@{update}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void update (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2 }\end{DoxyParamCaption})}
+
+
+
+mise a jour affichage 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+{\em screen} & pointeur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{collision_8h_a5ff7548e046a7ffb8c7924139d8d401f}\label{collision_8h_a5ff7548e046a7ffb8c7924139d8d401f}} 
+\index{collision.\+h@{collision.\+h}!verif\+\_\+collision@{verif\+\_\+collision}}
+\index{verif\+\_\+collision@{verif\+\_\+collision}!collision.\+h@{collision.\+h}}
+\subsubsection{\texorpdfstring{verif\+\_\+collision()}{verif\_collision()}}
+{\footnotesize\ttfamily int verif\+\_\+collision (\begin{DoxyParamCaption}\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet1,  }\item[{\hyperlink{structObjet}{Objet} $\ast$}]{objet2,  }\item[{float}]{D1 }\end{DoxyParamCaption})}
+
+
+
+verification collision 
+
+
+\begin{DoxyParams}{Parameters}
+{\em objet1} & pointeur objet1 \\
+\hline
+{\em objet2} & pointeur objet2 \\
+\hline
+{\em D1} & distance objet1 \\
+\hline
+\end{DoxyParams}

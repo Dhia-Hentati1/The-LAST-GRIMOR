@@ -1,0 +1,77 @@
+\hypertarget{header_8h}{}\section{header.\+h File Reference}
+\label{header_8h}\index{header.\+h@{header.\+h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structimage}{image}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structimage}{image} \hyperlink{header_8h_a183300a528553b66677f173c07c7170e}{image}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{header_8h_ac52fd0ca7c2fd2dc8f807d01e88dacf0}\label{header_8h_ac52fd0ca7c2fd2dc8f807d01e88dacf0}} 
+\hyperlink{structimage}{image} {\bfseries initialisation} (char nomimage\mbox{[}100\mbox{]}, int x, int y)
+\item 
+void \hyperlink{header_8h_ac344abb3cc56a3961a4ba9c9fc734b9e}{affichage} (S\+D\+L\+\_\+\+Surface $\ast$ecran, \hyperlink{structimage}{image} img)
+\begin{DoxyCompactList}\small\item\em Affichage des image. \end{DoxyCompactList}\item 
+int \hyperlink{header_8h_a1799be0610f084b7577718ae96f9877d}{random\+\_\+nbr} (int nb)
+\begin{DoxyCompactList}\small\item\em Donner un entier aleatoirement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ghassen beddouihech 
+\end{DoxyAuthor}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{header_8h_a183300a528553b66677f173c07c7170e}\label{header_8h_a183300a528553b66677f173c07c7170e}} 
+\index{header.\+h@{header.\+h}!image@{image}}
+\index{image@{image}!header.\+h@{header.\+h}}
+\subsubsection{\texorpdfstring{image}{image}}
+{\footnotesize\ttfamily typedef struct \hyperlink{structimage}{image} \hyperlink{structimage}{image}}
+
+@ struct image @ breif struct pour image enigme 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{header_8h_ac344abb3cc56a3961a4ba9c9fc734b9e}\label{header_8h_ac344abb3cc56a3961a4ba9c9fc734b9e}} 
+\index{header.\+h@{header.\+h}!affichage@{affichage}}
+\index{affichage@{affichage}!header.\+h@{header.\+h}}
+\subsubsection{\texorpdfstring{affichage()}{affichage()}}
+{\footnotesize\ttfamily void affichage (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran,  }\item[{\hyperlink{structimage}{image}}]{image }\end{DoxyParamCaption})}
+
+
+
+Affichage des image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ecran} & pointeur \\
+\hline
+{\em image} & sturct \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{header_8h_a1799be0610f084b7577718ae96f9877d}\label{header_8h_a1799be0610f084b7577718ae96f9877d}} 
+\index{header.\+h@{header.\+h}!random\+\_\+nbr@{random\+\_\+nbr}}
+\index{random\+\_\+nbr@{random\+\_\+nbr}!header.\+h@{header.\+h}}
+\subsubsection{\texorpdfstring{random\+\_\+nbr()}{random\_nbr()}}
+{\footnotesize\ttfamily int random\+\_\+nbr (\begin{DoxyParamCaption}\item[{int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Donner un entier aleatoirement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nb} & entier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nb 
+\end{DoxyReturn}
